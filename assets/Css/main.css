@@ -1,0 +1,97 @@
+/* Configurações Gerais de Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #e9ecef;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+/* Container */
+.container {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Área de Input e Botão */
+input {
+  width: 70%;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #4caf50;
+}
+
+button {
+  width: 25%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Estilização da Lista (ul) */
+ul {
+  list-style: none;
+  margin-top: 20px;
+}
+
+/* Cada Item da Lista (li) */
+li {
+  background: #f9f9f9;
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between; /* Joga o texto para um lado e o X para o outro */
+  align-items: center;
+  transition: background 0.2s;
+}
+
+li:hover {
+  background: #f1f1f1;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+/* O "X" de remover tarefa */
+li span {
+  color: #ff5c5c;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+li span:hover {
+  background-color: #ffe5e5;
+}
