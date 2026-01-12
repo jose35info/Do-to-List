@@ -53,15 +53,11 @@ Para visualizar este projeto localmente, siga os passos abaixo:
 
 ---
 
-## 📸 Demonstração
 
-![Screenshot do Projeto]([Link-da-sua-imagem-ou-gif-aqui])
-
----
 
 ## 👤 Autor
 
 Desenvolvido por **José-DEV**.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/seu-perfil)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/seu-usuario)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jose-antonio-luz)
+
